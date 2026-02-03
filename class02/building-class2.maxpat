@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1813.0, 143.0, 1786.0, 1226.0 ],
+        "rect": [ 34.0, 95.0, 1660.0, 988.0 ],
         "boxes": [
             {
                 "box": {
@@ -18,7 +18,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 186.0, 797.0, 150.0, 33.0 ],
+                    "patching_rect": [ 186.0, 797.0, 152.0, 33.0 ],
                     "text": "map final brightness stage to this"
                 }
             },
@@ -84,7 +84,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1762.0, 92.0, 2492.0, 1314.0 ],
+                        "rect": [ 34.0, 95.0, 1660.0, 988.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -439,8 +439,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 2379.0, 328.0, 978.0, 692.0 ],
-                        "visible": 1,
+                        "rect": [ 608.0, 250.0, 978.0, 692.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -1455,6 +1454,14 @@
             "obj-80::obj-81::obj-86": [ "Green multiply", "Green multiply", 0 ],
             "obj-80::obj-81::obj-87": [ "Blue mode", "Blue mode", 0 ],
             "obj-80::obj-81::obj-93": [ "pictctrl[249]", "pictctrl[1]", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-19::obj-2": {
                     "parameter_longname": "pictctrl[16]"
