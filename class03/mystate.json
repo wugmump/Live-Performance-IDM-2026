@@ -1,0 +1,119 @@
+{
+    "pattrstorage": {
+        "name": "mystate",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "grabbr::grabbrcontrols::vdevnum[1]": [ 0 ],
+                    "grabbr::grabbrcontrols::viewsize": [ 0.0 ],
+                    "grabbr::grabbrcontrols::formatnum[1]": [ 1 ],
+                    "zamplr::colormode": [ 1.0 ],
+                    "zamplr::gain": [ 8.0 ],
+                    "zamplr::horizontal": [ 1.0 ],
+                    "zamplr::vertical": [ 1.0 ],
+                    "zamplr::mode": [ 2.0 ],
+                    "mixfadr::xfade-value": [ 0.0 ],
+                    "sepr8r::cont": [ 4.0 ],
+                    "sepr8r::invert": [ 0.0 ],
+                    "sepr8r::thresh[1]": [ 0.0 ],
+                    "oper8r::operator": [ 9.0 ],
+                    "oper8r::xfade-value": [ 0.0 ],
+                    "brcosr::bright-mult": [ 0 ],
+                    "brcosr::cont-mult": [ 0 ],
+                    "brcosr::sat-mult": [ 0 ],
+                    "brcosr::lobr": [ 1.0 ],
+                    "brcosr::hibr": [ -3.34624 ],
+                    "brcosr::loco": [ 1.0 ],
+                    "brcosr::hico": [ -6.431999999999999 ],
+                    "brcosr::losa": [ 1.0 ],
+                    "brcosr::hisa": [ 3.944879999999999 ]
+                }
+            },
+            "2": {
+                "id": 2,
+                "data": {
+                    "grabbr::grabbrcontrols::vdevnum[1]": [ 0 ],
+                    "grabbr::grabbrcontrols::viewsize": [ 0.0 ],
+                    "grabbr::grabbrcontrols::formatnum[1]": [ 1 ],
+                    "zamplr::colormode": [ 1.0 ],
+                    "zamplr::gain": [ 8.0 ],
+                    "zamplr::horizontal": [ 1.0 ],
+                    "zamplr::vertical": [ 1.0 ],
+                    "zamplr::mode": [ 2.0 ],
+                    "mixfadr::xfade-value": [ 0.12598425196850394 ],
+                    "sepr8r::cont": [ 20.0 ],
+                    "sepr8r::invert": [ 0.0 ],
+                    "sepr8r::thresh[1]": [ 0.07874015748031496 ],
+                    "oper8r::operator": [ 9.0 ],
+                    "oper8r::xfade-value": [ 0.5118110236220481 ],
+                    "brcosr::bright-mult": [ 0 ],
+                    "brcosr::cont-mult": [ 0 ],
+                    "brcosr::sat-mult": [ 0 ],
+                    "brcosr::lobr": [ 1.0 ],
+                    "brcosr::hibr": [ -3.34624 ],
+                    "brcosr::loco": [ 1.0 ],
+                    "brcosr::hico": [ -6.431999999999999 ],
+                    "brcosr::losa": [ 1.0 ],
+                    "brcosr::hisa": [ 3.944879999999999 ]
+                }
+            },
+            "3": {
+                "id": 3,
+                "data": {
+                    "grabbr::grabbrcontrols::vdevnum[1]": [ 0 ],
+                    "grabbr::grabbrcontrols::viewsize": [ 0.0 ],
+                    "grabbr::grabbrcontrols::formatnum[1]": [ 1 ],
+                    "zamplr::colormode": [ 1.0 ],
+                    "zamplr::gain": [ 1.0 ],
+                    "zamplr::horizontal": [ 1.0 ],
+                    "zamplr::vertical": [ 0.4409448818897648 ],
+                    "zamplr::mode": [ 2.0 ],
+                    "mixfadr::xfade-value": [ 0.14960629921259844 ],
+                    "sepr8r::cont": [ 192.0 ],
+                    "sepr8r::invert": [ 0.0 ],
+                    "sepr8r::thresh[1]": [ 0.5354330708661411 ],
+                    "oper8r::operator": [ 9.0 ],
+                    "oper8r::xfade-value": [ 0.5118110236220481 ],
+                    "brcosr::bright-mult": [ 0 ],
+                    "brcosr::cont-mult": [ 0 ],
+                    "brcosr::sat-mult": [ 0 ],
+                    "brcosr::lobr": [ 1.0 ],
+                    "brcosr::hibr": [ -3.34624 ],
+                    "brcosr::loco": [ 1.0 ],
+                    "brcosr::hico": [ -6.431999999999999 ],
+                    "brcosr::losa": [ 1.0 ],
+                    "brcosr::hisa": [ 3.944879999999999 ]
+                }
+            },
+            "4": {
+                "id": 4,
+                "data": {
+                    "grabbr::grabbrcontrols::vdevnum[1]": [ 0 ],
+                    "grabbr::grabbrcontrols::viewsize": [ 0.0 ],
+                    "grabbr::grabbrcontrols::formatnum[1]": [ 1 ],
+                    "zamplr::colormode": [ 1.0 ],
+                    "zamplr::gain": [ 1.0 ],
+                    "zamplr::horizontal": [ 1.0 ],
+                    "zamplr::vertical": [ 0.4409448818897648 ],
+                    "zamplr::mode": [ 2.0 ],
+                    "mixfadr::xfade-value": [ 0.14960629921259844 ],
+                    "sepr8r::cont": [ 192.0 ],
+                    "sepr8r::invert": [ 0.0 ],
+                    "sepr8r::thresh[1]": [ 0.5354330708661411 ],
+                    "oper8r::operator": [ 9.0 ],
+                    "oper8r::xfade-value": [ 0.5118110236220481 ],
+                    "brcosr::bright-mult": [ 0 ],
+                    "brcosr::cont-mult": [ 0 ],
+                    "brcosr::sat-mult": [ 0 ],
+                    "brcosr::lobr": [ -1.0 ],
+                    "brcosr::hibr": [ -3.34624 ],
+                    "brcosr::loco": [ 1.0 ],
+                    "brcosr::hico": [ -6.431999999999999 ],
+                    "brcosr::losa": [ 1.0 ],
+                    "brcosr::hisa": [ 3.944879999999999 ]
+                }
+            }
+        }
+    }
+}
