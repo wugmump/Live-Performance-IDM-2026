@@ -9,15 +9,54 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 84.0, 140.0, 1000.0, 746.0 ],
+        "rect": [ 34.0, 95.0, 1064.0, 697.0 ],
         "boxes": [
             {
                 "box": {
-                    "id": "obj-7",
-                    "maxclass": "comment",
+                    "embedstate": [
+                        [ "adapt", 1 ],
+                        [ "bypass", 0 ],
+                        [ "enable", 1 ]
+                    ],
+                    "filename": "jit.fx.cf.gaussian.js",
+                    "id": "obj-2",
+                    "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 635.0, 370.0, 150.0, 20.0 ]
+                    "numoutlets": 1,
+                    "outlettype": [ "jit_gl_texture" ],
+                    "patching_rect": [ 68.0, 136.0, 53.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "parameter_enable": 0
+                    },
+                    "text": "jit.fx.blur",
+                    "textfile": {
+                        "filename": "jit.fx.cf.gaussian.js",
+                        "flags": 0,
+                        "embed": 0,
+                        "autowatch": 1
+                    }
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "jit_gl_texture", "", "" ],
+                    "patching_rect": [ 68.0, 50.0, 217.0, 22.0 ],
+                    "text": "jit.gl.node @name mynode @capture 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "newobj",
+                    "numinlets": 8,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 134.0, 600.0, 92.5, 22.0 ],
+                    "text": "jit.gl.material"
                 }
             },
             {
@@ -93,8 +132,8 @@
                     "numinlets": 4,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 58.0, 532.0, 307.0, 22.0 ],
-                    "text": "jit.gl.multiple 4 @glparams rotatexyz color position scale"
+                    "patching_rect": [ 58.0, 532.0, 353.0, 22.0 ],
+                    "text": "jit.gl.multiple mynode 4 @glparams rotatexyz color position scale"
                 }
             },
             {
@@ -190,8 +229,8 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 58.0, 587.0, 373.0, 22.0 ],
-                    "text": "jit.gl.gridshape @shape cube @lighting_enable 1 @scale 0.5 0.5 0.5"
+                    "patching_rect": [ 58.0, 648.0, 419.0, 22.0 ],
+                    "text": "jit.gl.gridshape mynode @shape cube @lighting_enable 1 @scale 0.5 0.5 0.5"
                 }
             },
             {
@@ -201,12 +240,30 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "jit_matrix", "bang", "" ],
-                    "patching_rect": [ 21.0, 32.0, 293.0, 22.0 ],
+                    "patching_rect": [ 68.0, 202.0, 293.0, 22.0 ],
                     "text": "jit.world @erase_color 0 0 0 1 @enable 1 @floating 1"
+                }
+            },
+            {
+                "box": {
+                    "attr": "amt",
+                    "id": "obj-7",
+                    "maxclass": "attrui",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 110.0, 96.0, 150.0, 22.0 ]
                 }
             }
         ],
         "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
             {
                 "patchline": {
                     "destination": [ "obj-48", 0 ],
@@ -217,6 +274,12 @@
                 "patchline": {
                     "destination": [ "obj-24", 1 ],
                     "source": [ "obj-125", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-2", 0 ]
                 }
             },
             {
@@ -263,8 +326,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-42", 2 ],
                     "source": [ "obj-65", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-7", 0 ]
                 }
             },
             {
