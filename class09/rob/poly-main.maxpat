@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 62.0, 92.0, 1466.0, 914.0 ],
+        "rect": [ 359.0, 207.0, 960.0, 691.0 ],
         "integercoordinates": 1,
         "boxes": [
             {
@@ -100,7 +100,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 198.0, 190.0, 24.0, 24.0 ]
+                    "patching_rect": [ 191.0, 191.0, 24.0, 24.0 ]
                 }
             },
             {
@@ -144,7 +144,8 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 366.0, 145.0, 150.0, 22.0 ]
+                    "patching_rect": [ 327.0, 152.0, 111.0, 22.0 ],
+                    "text_width": 74.0
                 }
             },
             {
@@ -154,7 +155,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "jit_matrix", "bang", "" ],
-                    "patching_rect": [ 327.0, 184.0, 111.0, 22.0 ],
+                    "patching_rect": [ 327.0, 180.0, 111.0, 22.0 ],
                     "text": "jit.world @enable 1"
                 }
             },
