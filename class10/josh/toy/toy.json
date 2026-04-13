@@ -1,0 +1,13 @@
+{
+    "pattrstorage": {
+        "name": "toy",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "v8": []
+                }
+            }
+        }
+    }
+}
